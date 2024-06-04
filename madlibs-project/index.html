@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> HoodLibs
+    </title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+   <div class="flex-container">
+    <div class='madLibsEdit'>
+    <h3 id="edit">Fill the blanks!</h3>
+    </div><br><br>
+   <div class='madLibsPreview'>
+      <h3 id="preview">Voila !</h3>
+    </div>
+
+      <div id="google_translate_element"></div>
+    </div>
+  
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          { pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE },
+          'google_translate_element'
+        );}
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <script src="do-not-touch.js"></script>
+    <script src="madlibs.js"></script>
+  </body>
+  
+  </html>
